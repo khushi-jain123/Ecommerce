@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+
+.sidebar a {
+    color:black;
+    text-decoration: none;
+}
+
+#userprofile img {
+    max-width:300px;
+}
+
+#changepwd input {
+    margin-bottom: 20px;
+}
+
+.password-message {
+        margin-top: 2px;
+        font-size: 14px;
+        color: red;
+    }
+    .valid {
+        border: 2px solid green;
+    }
+    .invalid {
+        border: 2px solid red;
+    }
+
+    .jumbotron {
+        height: 90vh;
+        background-color: #fcfbf7;
+    }
+
+    .jumbotron h1 {
+        color:red;
+    }
+
+    #homenav {
+        background-color: #fcfbf7;
+    }
+    #homenav a {
+        color:black;
+        font-size: 20px;
+        font-family: arial;
+    }
+
+.product-card img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card img:hover {
+    transform: scale(1.1);
+}
+
+.filter {
+    display: none;
+}
+
+.filter.show {
+    display: block;
+}
+
+
+/*product info*/
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.review {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.review:first-child {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/*end of product info*/
+
+
+#payment input, #payment textarea {
+    margin-bottom: 15px;
+}
